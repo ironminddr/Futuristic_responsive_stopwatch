@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>StopWatch</title>
+        <script type="text/javascript" src="stopwatch_functionality.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="title-div">
+            <h1>StopWatch</h1>
+        </div>  
+        <table id="indicators">
+            <tr>
+                <td>
+                    <span>Seconds</span>
+                </td>
+                <td></td>
+                <td>
+                    <span>Miliseconds</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <span id="seconds">00</span>
+                </td>
+                <td>
+                    <span>:</span>
+                </td>
+                <td>
+                    <span id="miliseconds">00</span>
+                </td>
+            </tr>
+        </table>
+            
+        <div id="buttons-div">
+            <button id="start-button" >Start</button>
+            <button id="stop-button" >Stop</button>
+            <button id="reset-button" >Reset</button>
+        </div>
+    </body>
+</html>
